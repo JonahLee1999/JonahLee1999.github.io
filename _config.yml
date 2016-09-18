@@ -2,11 +2,11 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://mazhuang.org
+url: http://gubiqin.top
 date_format: "ordinal"
 title: 码志
-subtitle: "打码改变人生"
-description: "马壮的个人博客"
+subtitle: "很惭愧，只做了微小 的一点贡献"
+description: "微如蒲苇"
 keywords: 码志, Zhuang Ma, mzlogin, mazhuang
 favicon: /favicon.ico
 timezone: Asia/Shanghai
@@ -35,9 +35,9 @@ navs:
     href: /categories/
     label: 分类
 
-  -
-    href: /wiki/
-    label: 维基
+#  -
+#    href: /wiki/
+#    label: 维基
 
   -
     href: /links/
@@ -80,12 +80,12 @@ collections:
 # ---------------- #
 #      Socials     #
 # ---------------- #
-github_username: mzlogin
-douban_username: freedim
-facebook_username: mzlogin
-weibo_username: mzlogin
-zhihu_username: mzlogin
-twitter_username: mzlogin
+github_username: celery-gu
+douban_username: 不玩
+#facebook_username: mzlogin
+weibo_username:不说
+zhihu_username: 保密
+#twitter_username: mzlogin
 
 # ---------------- #
 #      Comments    #
@@ -94,8 +94,8 @@ twitter_username: mzlogin
 comments_provider: disqus
 # !!!重要!!! 请修改下面两个用户名为你自己申请的
 # !!!Important!!! Please modify usernames below to yours
-duoshuo_username: mazhuang
-disqus_username: mzlogin
+duoshuo_username: 谷谷
+#disqus_username: mzlogin
 # 在使用 disqus 的时候可点击显示多说评论框
 lazy_load_duoshuo: true
 
