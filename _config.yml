@@ -11,17 +11,17 @@ keywords: 码志, Zhuang Ma, mzlogin, mazhuang
 favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
-source_code: https://github.com/mzlogin/mzlogin.github.io
+source_code: https://github.com/mzlogin/celery-gu.github.io
 side_bar_repo_limit: 5
 
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
-organization: Sogou, Inc.
-organization_url: https://www.sogou.com
-location: Beijing, China
-email: chumpma@gmail.com
+author: celery gu
+#organization: Sogou, Inc.
+#organization_url: https://www.sogou.com
+location:Changsha, China
+email: gubiqin@gmail.com
 
 # ---------------- #
 #    Navigation    #
