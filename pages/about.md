@@ -1,33 +1,28 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+description: 膜蛤改变世界
+keywords: gugu
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
+不知道说什么好了，就给你卖个萌吧。
 
 仰慕「优雅编码的艺术」。
 
 ## 坚信
 
-* 熟能生巧
-* 努力改变人生
+* 没有坚信的
+* 骗你的
 
 ## 联系
 
-* GitHub：[@mzlogin](https://github.com/mzlogin)
-* 掘金：[@mzlogin](http://gold.xitu.io/user/570ddaeb2e958a005c63b2da)
-* LinkedIn：[@mazhuang](https://www.linkedin.com/in/mazhuang)
-* 博客：[{{ site.title }}]({{ site.url }})
-* 微博: [@mzlogin](http://weibo.com/mzlogin)
-* 知乎: [@mzlogin](http://www.zhihu.com/people/mzlogin)
-* 豆瓣: [@壮哥不胖](http://www.douban.com/people/freedim)
+* GitHub：[@celery-gu](https://github.com/celery-gu)
 
-## Skill Keywords
+
+## Skill Keywords（有代码，还不会改，留着先）
 
 #### Software Engineer Keywords
 <div class="btn-inline">
