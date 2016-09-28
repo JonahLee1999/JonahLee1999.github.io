@@ -9,8 +9,12 @@ permalink: /links/
 ---
 
 > God made relatives. Thank God we can choose our friends.
+>
+> 欢迎各位大佬们前来勾搭互放链接，给大佬们跪下orz
+>
+> 虽然我放人一般不经过主人同意，略略略
 
-* [Connie酱](http://biedan.org)
-* [只宁静不致远](http://zxning.github.io/)
-* [Blog Something](http://chenxiaoyoyo.github.io)
-* [码志](http://mazhuang.org)
+* [Chiahao](http://Chiahao.org)
+* [默小西](http://http://momomoxiaoxi.com//)
+* [Honsen](http://honsen.top)
+* [码志](http://gubiqin.top)
