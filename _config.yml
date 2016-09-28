@@ -18,8 +18,8 @@ side_bar_repo_limit: 5
 #      Author      #
 # ---------------- #
 author: celery gu
-#organization: Sogou, Inc.
-#organization_url: https://www.sogou.com
+organization: Sogou, Inc.
+organization_url: https://www.sogou.com
 location:Changsha,China
 email: gubiqin@gmail.com
 
@@ -82,8 +82,8 @@ collections:
 # ---------------- #
 github_username: celery-gu
 douban_username: 不玩
-#facebook_username: mzlogin
-#weibo_username:不说
+facebook_username: mzlogin
+weibo_username:不说
 zhihu_username: 保密
 #twitter_username: mzlogin
 
