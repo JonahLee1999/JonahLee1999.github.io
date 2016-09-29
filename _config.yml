@@ -4,10 +4,10 @@
 baseurl:
 url: http://gubiqin.top
 date_format: "ordinal"
-title: 码志
+title: "too young,too simple"
 subtitle: "很惭愧，只做了微小 的一点贡献"
 description: "微如蒲苇"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang
+keywords: gugu
 favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
@@ -18,9 +18,9 @@ side_bar_repo_limit: 5
 #      Author      #
 # ---------------- #
 author: celery gu
-organization: Sogou, Inc.
+organization: Hunan university
 organization_url: https://www.sogou.com
-location: Beijing,China
+location: Changsha,China
 email: gubiqin@gmail.com
 
 # ---------------- #
@@ -81,10 +81,10 @@ collections:
 #      Socials     #
 # ---------------- #
 github_username: celery-gu
-douban_username: 不玩
-facebook_username: mzlogin
-weibo_username: 不说
-zhihu_username: 保密
+#douban_username: 不玩
+#facebook_username: mzlogin
+#weibo_username: 不说
+#zhihu_username: 保密
 #twitter_username: mzlogin
 
 # ---------------- #
