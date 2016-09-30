@@ -11,7 +11,7 @@ keywords: highlight
 
 ### 无行号
 
-在这个模板里，其实只要用` ```cpp `（用于代码前）和` ``` `（用于代码后）就可以设置代码高亮了。注意那个cpp其实是你所用的语言。可以是Java和Python还有Ruby之类的，然后就是不要打错。之前我打成了` ```C++ `就老是高亮不出来，真是习惯害死人啊。
+在这个模板里，其实只要用*```cpp*(用于代码前)和*```*(用于代码后)就可以设置代码高亮了。注意那个cpp其实是你所用的语言。可以是Java和Python还有Ruby之类的，然后就是不要打错。之前我打成了*```C++*就老是高亮不出来，真是习惯害死人啊。
 
 
 * Show
@@ -38,7 +38,7 @@ keywords: highlight
 
 ### 有行号
 
-有行号的话那么在代码前加上` {% highlight cpp linenos %} `，代码后加上` {% endhighlight %} `，不要使用` ```cpp `了。其中cpp是使用的语言，linenos是行号。
+有行号的话那么在代码前加上 *{% highlight cpp linenos %}* ，代码后加上 *{% endhighlight %}* ，不要使用*```cpp*了。其中cpp是使用的语言，linenos是行号。
 
 
 * Show
