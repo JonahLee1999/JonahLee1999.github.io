@@ -14,7 +14,7 @@ permalink: /links/
 >
 > 虽然我放人一般不经过主人同意，略略略
 
-* [Chiahao](http://Chiahao.org)
-* [默小西](http://http://momomoxiaoxi.com//)
+* [Chiahao](http://Chiahao.top)
+* [默小西](http://http://momomoxiaoxi.com)
 * [Honsen](http://honsen.top)
 * [码志](http://gubiqin.top)
