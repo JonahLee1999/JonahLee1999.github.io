@@ -44,7 +44,7 @@ vim /etc/sysconfig/network-scripts/ifcfg-eno16777736
 
 如下图
 
- ![1](E:\Github\celery-gu.github.io\assets\images\2016-10-17\1.PNG)
+ ![1](assets\images\2016-10-17\1.PNG)
 
 中间一大串IPV4和IPV6是啥意思我都没弄懂的，另外在做图查资料的途中，发现如果我要固定IP的话其实 BOOTPROTO=static才是固定IP的协议，打错了又重新懒得做图的某只偷偷爬走。
 
@@ -58,7 +58,7 @@ nmtui-edit enoxxxxxxx
 
 如图查验
 
- ![2](E:\Github\celery-gu.github.io\assets\images\2016-10-17\2.PNG)
+ ![2](assets\images\2016-10-17\2.PNG)
 
 
 
@@ -70,7 +70,7 @@ nmtui-connect enoxxxxxxxx
 
 如图成功
 
- ![3](E:\Github\celery-gu.github.io\assets\images\2016-10-17\3.PNG)
+ ![3](assets\images\2016-10-17\3.PNG)
 
 
 
