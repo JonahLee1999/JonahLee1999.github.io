@@ -10,6 +10,7 @@ keywords: 虚拟机、CentOS
 
 
 
+
 ### 虚拟机连接方式介绍
 
 虚拟机三种网络连接方式介绍[http://lilinji.blog.51cto.com/5441000/1264307](http://lilinji.blog.51cto.com/5441000/1264307)
