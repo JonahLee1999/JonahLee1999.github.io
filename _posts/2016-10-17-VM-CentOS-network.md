@@ -12,7 +12,7 @@ keywords: 虚拟机、CentOS
 
 ### 虚拟机连接方式介绍
 
-虚拟机三种网络连接方式介绍：http://lilinji.blog.51cto.com/5441000/1264307
+虚拟机三种网络连接方式介绍[http://lilinji.blog.51cto.com/5441000/1264307](http://lilinji.blog.51cto.com/5441000/1264307)
 
 
 
@@ -21,7 +21,7 @@ keywords: 虚拟机、CentOS
 
 今天用才知道，CentOS7.0的网卡不叫eth0叫eno16XXXX（不记得具体了），然后CentOS默认开机时网卡是不启动的。真是遍地找坑。
 
-如果有人看不惯网卡名字的话，可以看[这里](http://5323197.blog.51cto.com/5313197/1813868更改，但是我没试过，不清楚会怎样)
+如果有人看不惯网卡名字的话，可以看[这里](http://5323197.blog.51cto.com/5313197/1813868)更改，但是我没试过，不清楚会怎样
 
 但是我三种方法都没有连接成功，最后采取了bridge的连接还更改了enoxxxx的文件再重启网络服务才成功的，这里只写更改文件的过程。
 
@@ -29,9 +29,9 @@ keywords: 虚拟机、CentOS
 
 ###操作过程 
 
-参考文章：http://www.centoscn.com/CentOS/config/2015/0426/5285.html
+参考文章：[http://www.centoscn.com/CentOS/config/2015/0426/5285.html](http://www.centoscn.com/CentOS/config/2015/0426/5285.html)
 
-http://www.dedecms.com/knowledge/servers/linux-bsd/2012/0822/12185.html
+[http://www.dedecms.com/knowledge/servers/linux-bsd/2012/0822/12185.html](http://www.dedecms.com/knowledge/servers/linux-bsd/2012/0822/12185.html)
 
 
 
