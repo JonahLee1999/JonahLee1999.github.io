@@ -27,7 +27,7 @@ keywords: 虚拟机、CentOS
 
 
 
-###操作过程 
+### 操作过程 
 
 参考文章：[http://www.centoscn.com/CentOS/config/2015/0426/5285.html](http://www.centoscn.com/CentOS/config/2015/0426/5285.html)
 
