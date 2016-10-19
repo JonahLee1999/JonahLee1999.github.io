@@ -1,12 +1,12 @@
 .hll { background-color: #ffffff }
 .c { color: #999988; font-style: italic } /* Comment */
-.err { border: 1px solid #FF0000 } /* Error */
-.k { color: #008000; font-weight: bold } /* Keyword */
-.o { color: #666666 } /* Operator */
+.err { border: #a61717； background-color: #e3d2d2} /* Error */
+.k { font-weight: bold } /* Keyword */
+.o { font-weight: bold } /* Operator */
 .cm { color: #999988; font-style: italic } /* Comment.Multiline */
 .cp { color: #999999; font-weight: bold} /* Comment.Preproc */
 .c1 { color: #999988; font-style: italic } /* Comment.Single */
-.cs { color: #999999; font-style: italic } /* Comment.Special */
+.cs { color: #999999; font-weight: bold; font-style: italic } /* Comment.Special */
 .gd { color: #000000; background-color: #ffdddd } /* Generic.Deleted */
 .ge { font-style: italic } /* Generic.Emph */
 .gr { color: #aa0000 } /* Generic.Error */
