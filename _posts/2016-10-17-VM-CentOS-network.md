@@ -10,6 +10,7 @@ keywords: 虚拟机、CentOS
 
 
 
+
 ### 虚拟机连接方式介绍
 
 虚拟机三种网络连接方式介绍[http://lilinji.blog.51cto.com/5441000/1264307](http://lilinji.blog.51cto.com/5441000/1264307)
@@ -24,6 +25,14 @@ keywords: 虚拟机、CentOS
 如果有人看不惯网卡名字的话，可以看[这里](http://5323197.blog.51cto.com/5313197/1813868)更改，但是我没试过，不清楚会怎样
 
 但是我三种方法都没有连接成功，最后采取了bridge的连接还更改了enoxxxx的文件再重启网络服务才成功的，这里只写更改文件的过程。
+
+
+
+### 检测步骤（基于bridge连接）
+
+* 用`ifconfig`查看CentOS的IP，但是有些版本是不能用这个命令，可以用`ip`试一下，其他命令我就不清楚了，如果不能用`ifconfig`查看但想用，参考[https://cnzhx.net/blog/centos-7-ip-config/](https://cnzhx.net/blog/centos-7-ip-config/)
+* 查看到ip后先ping CentOS的IP，再ping主机再ping外网来检查
+* 我的是虚拟机能ping通主机，主机ping不通虚拟机，所以以下皆是针对这个问题的解决
 
 
 
@@ -82,7 +91,7 @@ systemctl restart network
 
 有时候会出现
 
-```
+```shell
 Job for network.service failed because the control process exited with error code. See "systemctl status network.service" and "journalctl -xe" for details.
 ```
 
@@ -94,4 +103,5 @@ Job for network.service failed because the control process exited with error cod
 
 ### 最后一点想说的
 
-我发现本来我虚拟机里的kali用NAT模式是可以成功上网的，当时CentOS还不能上网，自从改好了CentOS的文件，Kali的NAT模式ping主机就显示了` connect: Network is unreachable`，但是把Kali的网络连接方式改成bridge模式就可以了，可能是我连接的网卡问题吧，留坑待填。
+* 我发现本来我虚拟机里的kali用NAT模式是可以成功上网的，当时CentOS还不能上网，自从改好了CentOS的文件，Kali的NAT模式ping主机就显示了` connect: Network is unreachable`，但是把Kali的网络连接方式改成bridge模式就可以了，可能是我连接的网卡问题吧，留坑待填。
+* 还有就是我的CentOS7.0在nat模式下虚拟机和主机完全ping不通，换成bridge就变成了虚拟机可以ping通主机，主机ping不通虚拟机，也不知道为啥。
