@@ -20,6 +20,6 @@ permalink: /links/
 
 * [Honsen](http://honsen.top)
 
-* [wuli梓宁](lizining.top)
+* [wuli梓宁](http://lizining.top)
 
   ​
