@@ -12,6 +12,8 @@ ida一时爽，看代码火葬场。
 
 使用工具：ida
 
+
+
 ### cm1
 
 最基础的题目了，把程序拖入ida中分析，按F5出来主程序
@@ -20,7 +22,7 @@ ida一时爽，看代码火葬场。
 
 整体程序的逻辑是输入Str1字符串，然后用strncmp()将Str1与Str2比较，然后双击Str2跳转如下。
 
-![1-2](/images/Xman-reverse/2-2.JPG)
+![1-2](/images/Xman-reverse/1-2.JPG)
 
 可得Str2字符串内容为`Thi5_i5_T0o_E4sy`，将此字符串输入exe中，得到flag为`xman{Thi5_i5_T0o_E4sy}`
 
@@ -34,7 +36,7 @@ ida一时爽，看代码火葬场。
 
 可看到主要的加密部分如下，是基础异或加密
 
-![2-1](/images/Xman-reverse/2-2.JPG)
+![2-2](/images/Xman-reverse/2-2.JPG)
 
 这个函数\*和&很多。先科普一下，\*表示指针，&是取地址，这个函数解释一下，v12和v5是两个字符数组的首地址，v3为偏移量。所以就相当于把v5这个字符串每一位都与v3进行异或得到v12的每一位，然后得到最终的v12与unk_403010字符串进行比较。
 
@@ -64,7 +66,7 @@ ida一时爽，看代码火葬场。
 
 顺便看一下被我忽略的函数吧，感觉也怪可怜的
 
-![3-4](/images/Xman-reverse/3-3.JPG)
+![3-4](/images/Xman-reverse/3-4.JPG)
 
 下次不困了再分析这个函数
 
@@ -122,7 +124,7 @@ OK，md5，看样子本题为md5加密。那就直接看最后比较字符串。
 
 看循环结束条件
 
-![6-3](/images/Xman-reverse/6-2.JPG)
+![6-3](/images/Xman-reverse/6-3.JPG)
 
 可以猜测前两个条件是防止v3越界，而`*v3==42`表示v3的值为`*`号，所以需要跳过所有\*所在位置（写个程序判断吧，不要傻兮兮的自己数），得到所有*位置，再通过switch中的跳转条件。最后得到控制跳转字符串为`dddddrrrrruuuuullldddr`，输入得flag为`xman{dddddrrrrruuuuullldddr}`。
 
