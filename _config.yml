@@ -4,12 +4,12 @@
 baseurl:
 url: http://gubiqin.top
 date_format: "ordinal"
-title: "香港记者"
-subtitle: "很惭愧，只做了微小 的一点贡献"
+title: "嗯？"
+subtitle: "路漫漫其修远兮，吾将上下而求索"
 description: "微如蒲苇"
 keywords: gugu
 favicon: /favicon.ico
-timezone: Asia/Shanghai
+timezone: Asia/Changsha
 encoding: "utf-8"
 source_code: https://github.com/mzlogin/celery-gu.github.io
 side_bar_repo_limit: 5
@@ -94,7 +94,7 @@ github_username: celery-gu
 comments_provider: disqus
 # !!!重要!!! 请修改下面两个用户名为你自己申请的
 # !!!Important!!! Please modify usernames below to yours
-#duoshuo_username: 谷谷
+duoshuo_username: 谷谷
 disqus_username: gugu
 # 在使用 disqus 的时候可点击显示多说评论框
 lazy_load_duoshuo: true
