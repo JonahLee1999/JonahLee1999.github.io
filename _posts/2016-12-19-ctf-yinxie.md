@@ -78,7 +78,7 @@ flag如下
 
 这题刚开始做真是一点头绪都没有。。后来大佬给了工具和提示（基本都是大佬带着做完额）。用tweakpng.exe检查，发现IHDR的crc不对。
 
- ![6](/images/ctf/yinxie/6.JPG)
+ ![7](/images/ctf/yinxie/7.JPG)
 
 在这里介绍一下png的格式，如下[http://blog.csdn.net/bisword/article/details/2777121](http://blog.csdn.net/bisword/article/details/2777121)
 
