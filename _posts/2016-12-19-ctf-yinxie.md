@@ -6,19 +6,21 @@ description: 隐写术中的一些姿势技巧
 keywords: CTF，隐写术
 ---
 
-### 纪念我曾经遇到的那些脑洞大的要死的隐写术
-
 我的隐写术启蒙篇：[隐写术总结](http://www.jianshu.com/p/67233f607f75)
 
 这篇文章有提过的隐写术我就不细讲了，说一下这篇文章中没提到但是又经常虐我的隐写术们。
 
-题目图片链接：[http://pan.baidu.com/s/1c1VX1wG](http://pan.baidu.com/s/1c1VX1wG) 
+题目图片链接：[http://pan.baidu.com/s/1nvAqAUl](http://pan.baidu.com/s/1nvAqAUl) 
 
-密码：7zza
+密码：t0e4
+
+
 
 #### 0X00 前言 
 
-很多CTF比赛中会把隐写术作为一道单独的mist考点，当然，也有很多题会把图片隐写术作为题目的一部分。总之叽叽歪歪这么多就是为了说明隐写术很常见，以上皆为废话。以下是我曾经遇到过的一些题目
+很多CTF比赛中会把隐写术作为一道单独的mist考点，当然，也有很多题会把图片隐写术作为题目的一部分。总之叽叽歪歪这么多就是为了说明隐写术很常见，以上皆为废话。以下是我曾经遇到过的一些题目。
+
+
 
 #### 0X01  2016HCTF你们所知道的隐写就仅此而已吗
 
@@ -36,7 +38,7 @@ imshow(a);
 
 flag如下
 
- ![1](images/ctf/yinxie/1.JPG)
+ ![1](/images/ctf/yinxie/1.JPG)
 
 
 
@@ -46,25 +48,25 @@ flag如下
 
 这张图片查看了图片通道位没啥发现。之后用binwalk查看，发现如下
 
- ![2](images/ctf/yinxie/2.JPG)
+ ![2](/images/ctf/yinxie/2.JPG)
 
 如果是正常的zlib的压缩应该是这样的，给个这种题的链接。[http://www.mamicode.com/info-detail-1294911.html](http://www.mamicode.com/info-detail-1294911.html)
 
 总之这题不是正常的zlib压缩。用binwalk -e提取。然后检查占用空间，居然有东西。所以binwalk继续检查。
 
- ![3](images/ctf/yinxie/3.JPG)
+ ![3](/images/ctf/yinxie/3.JPG)
 
 29里面有东西，继续提取。提取出来继续检查。这次没东西了。
 
- ![4](images/ctf/yinxie/4.JPG)
+ ![4](/images/ctf/yinxie/4.JPG)
 
 那就检查两个文件。28D28D中存在有规律的字符串。
 
- ![5](images/ctf/yinxie/5.JPG)
+ ![5](/images/ctf/yinxie/5.JPG)
 
 如果做得多，会发现这是zip的文件头。然后把这串字符串保存为zip文件。
 
- ![6](images/ctf/yinxie/6.JPG)
+ ![6](/images/ctf/yinxie/6.JPG)
 
 结尾的字符串很像Base64，加上压缩包有密码。把字符串解码，结果是乱码。。。。这串字符串就直接是解压密码。。。。总之解压出来即可得到Flag
 
@@ -76,7 +78,7 @@ flag如下
 
 这题刚开始做真是一点头绪都没有。。后来大佬给了工具和提示（基本都是大佬带着做完额）。用tweakpng.exe检查，发现IHDR的crc不对。
 
- ![6](images/ctf/yinxie/6.JPG)
+ ![6](/images/ctf/yinxie/6.JPG)
 
 在这里介绍一下png的格式，如下[http://blog.csdn.net/bisword/article/details/2777121](http://blog.csdn.net/bisword/article/details/2777121)
 
